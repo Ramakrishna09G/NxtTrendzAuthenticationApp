@@ -1,0 +1,99 @@
+/* Write your CSS code here */
+.header-container {
+  max-width: 450px;
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 0px;
+}
+.nxt-trendz-logo {
+  width: 125px;
+
+  margin-bottom: 0px;
+}
+.nav-logout-img {
+  height: 35px;
+  width: 35px;
+}
+.nav-list-lg-container {
+  list-style-type: none;
+  display: none;
+}
+.nav-lg-item {
+}
+.nav-logout-btn {
+  display: none;
+}
+.nav-list-sm-container {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+
+  background-color: #e6f6ff;
+  padding: 20px;
+}
+.nav-sm-item {
+  margin-left: 0px;
+}
+.nav-item-img {
+  width: 30px;
+}
+.nav-list-btn-container {
+  display: none;
+}
+@media (min-width: 768px) {
+  .header-container {
+    max-width: 60%;
+  }
+  .nav-container {
+  }
+  .nav-list-btn-container {
+    display: block;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+  }
+  .nav-list-lg-container {
+    display: block;
+    display: flex;
+  }
+  .nav-list-sm-container {
+    display: none;
+  }
+  .nav-logout-img {
+    display: none;
+  }
+  .nav-logout-btn {
+    display: block;
+    background-color: #0b69ff;
+    border: none;
+    border-radius: 2px;
+    height: 32px;
+    width: 85px;
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-size: 16px;
+    border-radius: 2px;
+  }
+  .nxt-trendz-logo {
+  }
+  .nav-lg-item {
+    margin-right: 25px;
+    color: #64748b;
+    font-size: 18px;
+    font-family: 'Roboto';
+  }
+}

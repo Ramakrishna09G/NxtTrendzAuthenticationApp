@@ -1,0 +1,117 @@
+/* Write your CSS code here */
+.nxt-trendz-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  padding: 20%;
+}
+.website-login-lg-img {
+  display: none;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 350px;
+}
+.nxt-trendz-logo {
+  width: 100%;
+  max-width: 150px;
+  align-self: center;
+  margin-bottom: 30px;
+}
+.website-login-sm-img {
+  width: 100%;
+  max-width: 350px;
+  align-self: center;
+  margin-bottom: 30px;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  width: 100%;
+  max-width: 350px;
+}
+.login-button {
+  height: 32px;
+  margin-top: 20px;
+  height: 45px;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  background-color: #0b69ff;
+  color: #ffffff;
+  font-size: 18px;
+  font-family: 'Roboto';
+  outline: none;
+  cursor: pointer;
+  margin-bottom: 0px;
+}
+.error-message {
+  color: #ff0b37;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  align-self: flex-start;
+}
+.input-label {
+  color: #475569;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  margin-bottom: 0px;
+}
+.password-field {
+  background-color: #e2e8f0;
+  height: 22px;
+
+  border-style: solid;
+  border-width: 1px;
+  border-color: #d7dfe9;
+  border-radius: 2px;
+  color: #64748b;
+  font-size: 14px;
+  margin-top: 5px;
+  padding: 8px 16px 8px 16px;
+}
+.user-name-field {
+  background-color: #e2e8f0;
+  height: 22px;
+
+  border-style: solid;
+  border-width: 1px;
+  border-color: #d7dfe9;
+  border-radius: 2px;
+  color: #64748b;
+  font-size: 14px;
+  margin-top: 5px;
+  padding: 8px 16px 8px 16px;
+}
+
+@media (min-width: 992px) {
+  .nxt-trendz-container {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .website-login-lg-img {
+    display: block;
+    width: 50%;
+  }
+  .website-login-sm-img {
+    display: none;
+  }
+  .form-container {
+    box-shadow: 0px 4px 16px 0px #bfbfbf;
+    padding: 60px 30px 60px 30px;
+    max-width: 280px;
+  }
+  .nxt-trendz-logo {
+    max-width: 180px;
+  }
+}
